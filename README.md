@@ -1,2 +1,249 @@
-# prafulsahu.github.io
-This is the resume.
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>John Doe - Android Developer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#4285F4",
+              "background-light": "#F5F7FA",
+              "background-dark": "#101822",
+              "card-light": "#ffffff",
+              "card-dark": "#1a2430",
+              "text-light": "#212121",
+              "text-dark": "#f0f2f5",
+              "text-secondary-light": "#60728a",
+              "text-secondary-dark": "#a0b3c6",
+              "border-light": "#dbdfe6",
+              "border-dark": "#344155"
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+            boxShadow: {
+                'card': '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)',
+                'card-hover': '0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.07)'
+            }
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full bg-card-light/80 dark:bg-card-dark/80 backdrop-blur-sm border-b border-border-light dark:border-border-dark font-display shadow-sm">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<div class="text-primary text-2xl">
+<span class="material-symbols-outlined !text-4xl">
+                            android
+                        </span>
+</div>
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold tracking-tight">John Doe</h2>
+</div>
+<div class="hidden sm:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-10 sm:py-16">
+<div class="flex flex-col max-w-5xl flex-1 px-4 sm:px-6 lg:px-8 space-y-16">
+<!-- Hero Section -->
+<section class="text-center" id="hero">
+<div class="flex flex-col gap-6 items-center">
+<h1 class="text-text-light dark:text-text-dark text-5xl md:text-7xl font-black leading-tight tracking-tighter">Android Developer</h1>
+<h2 class="max-w-2xl text-text-secondary-light dark:text-text-secondary-dark text-lg md:text-xl font-normal leading-normal">Crafting high-quality, user-centric mobile applications that delight users and drive business goals.</h2>
+<div class="flex flex-wrap gap-4 justify-center">
+<a class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-wide shadow-lg shadow-primary/20 hover:bg-opacity-90 transition-all" href="#resume">
+<span>View Resume</span>
+</a>
+<a class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary/20 text-primary text-base font-bold leading-normal tracking-wide hover:bg-primary/30 transition-all" href="#contact">
+<span>Contact Me</span>
+</a>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="scroll-mt-20" id="about">
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-card p-6 sm:p-8">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold tracking-tight mb-8">About Me</h2>
+<div class="flex flex-col lg:flex-row gap-8 items-center">
+<img class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-40 w-40 flex-shrink-0" data-alt="Professional headshot of John Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVpoetn-Pt8H1o6d8NYWjETtJl1iMZDT4iIZnsV6caiJVsK9n5hO7ntuAuvEVysh_UTNJE35dbq82RiZtwd_QJuTMdHqZSaLPSjK8UvW9IoiQtCPuQsjGabocuzZieas45TIa62FXnh_8-84_lvXsUWTVBXnssEcchstF01-yOf9Wbsjk9oxczY4AbtGs9JaVyZiX7IFbf5ZSR3DQ5oD9ZfFRU_7sq2VENvERMJIWJ2X9D09ESqxbA-dSBCMG-8EuYXozVIvZJ2mg"/>
+<div class="flex flex-col justify-center text-center lg:text-left">
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-base font-normal leading-relaxed">I'm a passionate Android Developer with a love for creating intuitive, beautiful, and high-performing mobile applications. My expertise lies in Kotlin, Java, and Jetpack Compose, and I always strive to follow best practices to build scalable and maintainable code. I thrive in collaborative environments and enjoy turning complex problems into elegant user experiences.</p>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+<div class="flex flex-col gap-3 rounded-lg border border-border-light dark:border-border-dark p-4 items-center text-center">
+<span class="material-symbols-outlined text-primary !text-3xl">code</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Kotlin</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Modern &amp; concise.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-border-light dark:border-border-dark p-4 items-center text-center">
+<span class="material-symbols-outlined text-primary !text-3xl">integration_instructions</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Jetpack Compose</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Declarative UI.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-border-light dark:border-border-dark p-4 items-center text-center">
+<span class="material-symbols-outlined text-primary !text-3xl">architecture</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">MVVM/MVI</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Clean architecture.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-border-light dark:border-border-dark p-4 items-center text-center">
+<span class="material-symbols-outlined text-primary !text-3xl">sync</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Coroutines</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Async tasks.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience Section -->
+<section class="scroll-mt-20" id="experience">
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-card p-6 sm:p-8">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold tracking-tight mb-8">Experience</h2>
+<div class="relative pl-6 border-l-2 border-primary/20">
+<!-- Timeline Item 1 -->
+<div class="mb-10 ml-4">
+<div class="absolute w-4 h-4 bg-primary rounded-full -left-[9px] border-2 border-card-light dark:border-card-dark"></div>
+<time class="text-sm font-normal leading-none text-text-secondary-light dark:text-text-secondary-dark">2021 - Present</time>
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark mt-1">Senior Android Developer</h3>
+<p class="text-base font-medium text-text-secondary-light dark:text-text-secondary-dark mb-2">Tech Solutions Inc.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm text-text-secondary-light dark:text-text-secondary-dark">
+<li>Led the development of a new flagship e-commerce app, resulting in a 40% increase in user engagement.</li>
+<li>Architected and implemented a modular design system using Jetpack Compose.</li>
+<li>Mentored junior developers and conducted code reviews to maintain high-quality standards.</li>
+</ul>
+</div>
+<!-- Timeline Item 2 -->
+<div class="mb-10 ml-4">
+<div class="absolute w-4 h-4 bg-primary rounded-full -left-[9px] border-2 border-card-light dark:border-card-dark"></div>
+<time class="text-sm font-normal leading-none text-text-secondary-light dark:text-text-secondary-dark">2019 - 2021</time>
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark mt-1">Android Developer</h3>
+<p class="text-base font-medium text-text-secondary-light dark:text-text-secondary-dark mb-2">Mobile Innovations Co.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm text-text-secondary-light dark:text-text-secondary-dark">
+<li>Developed and maintained features for a popular social networking application with over 10 million users.</li>
+<li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
+<li>Improved app performance by 25% by optimizing network requests and database queries.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="scroll-mt-20" id="projects">
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-card p-6 sm:p-8">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold tracking-tight mb-8">Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Project Card 1 -->
+<div class="flex flex-col rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark overflow-hidden group transition-all hover:shadow-card-hover hover:-translate-y-1">
+<img class="h-48 w-full object-cover" data-alt="Abstract UI design for a project named FinTrack" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNbvWAGdCYRJeMNe4wylw3b8hsKHnMI1MnYKfj0WXArmVC8-5ggkZajNMC9G-SSWblqxzLT3o6uIU9W7JBkQZaFYKnDHOCGwPZfTMC2Ydk00GHWqaqGOmQvY3snsB2tCDprM7ORXHK4_IIhuxPFM_Z7Ku9RZHV9xwQ8wlcAMGi_ufaYej22SqHnUphd7ChkscSZAJZ-a0Nb2MK8lW0NRgSetRys1WbBFetAzs5qyKPRSjYdJAJwOvh06skSht-_nOBtqEwvdDw_5E"/>
+<div class="p-4 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark">FinTrack</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark mt-1 flex-grow">A personal finance tracker app built with Jetpack Compose and MVVM architecture.</p>
+<div class="mt-4 flex gap-2">
+<a class="text-primary hover:underline text-sm font-semibold" href="#">GitHub</a>
+<span class="text-text-secondary-light dark:text-text-secondary-dark">·</span>
+<a class="text-primary hover:underline text-sm font-semibold" href="#">Play Store</a>
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="flex flex-col rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark overflow-hidden group transition-all hover:shadow-card-hover hover:-translate-y-1">
+<img class="h-48 w-full object-cover" data-alt="Abstract UI design for a project named CookBook" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq1b1PFqueKyGu3RbXT2sIZvmoRlGAs9y5lEzpRQ3sYWZaCKDi8BZyo3cJlS3p9ySVWDLAk85y8xkotvL2EuSrHnjwH90G57b-MgBvFR07aszkkdfKIYRzRq4QcCwrzQweMM4jtSe0qibgcgml0GL2Wrz4_TZdH1kUOL-wuEgwKT19wAhoD8V20xUVn42aNbhc3yZFV60Fv0qgtrKvFEgCuHLqhWNm3gSkZY2Fsgiheanb5gdZcANe73dNCC8M77-78ZDmxpqMAMw"/>
+<div class="p-4 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark">CookBook</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark mt-1 flex-grow">A recipe discovery app using a public API, Coroutines for async operations, and Room for local storage.</p>
+<div class="mt-4 flex gap-2">
+<a class="text-primary hover:underline text-sm font-semibold" href="#">GitHub</a>
+</div>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="flex flex-col rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark overflow-hidden group transition-all hover:shadow-card-hover hover:-translate-y-1">
+<img class="h-48 w-full object-cover" data-alt="Abstract UI design for a project named WeatherNow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZnl7d-hVw_C4H_A2k-0LqKSrcr4ip5jSvMP71cUjQ9iedgXPOcJv0ewWTkWa_IbGfJgcCNfzXMqVUUfJ_K9ecRs8bZOeLwhTfHgdqTNB-JRWMsL2VCicYh-hHmpbVI5QWZt84_Vsli4aiXILGlXbtYCgyjIjUNBOFKJpmMYpiOb_za5b_4Ny8d8XQhnS73SvQ5uqP8tPoQwgYMaek83gAhXJ1w6dHrUrCIyr8uZ7S1qFGqXA9aGZVOlWGS4ruSNmHOObctv9va24"/>
+<div class="p-4 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark">WeatherNow</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark mt-1 flex-grow">A simple weather forecast app demonstrating clean architecture and dependency injection with Hilt.</p>
+<div class="mt-4 flex gap-2">
+<a class="text-primary hover:underline text-sm font-semibold" href="#">GitHub</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="scroll-mt-20" id="contact">
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-card p-6 sm:p-8">
+<div class="text-center">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold tracking-tight">Let's Connect!</h2>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mt-2 max-w-lg mx-auto">I'm currently available for freelance work and open to new opportunities. Feel free to reach out.</p>
+</div>
+<form action="#" class="mt-8 max-w-xl mx-auto space-y-4" method="POST">
+<div>
+<label class="sr-only" for="name">Name</label>
+<input autocomplete="name" class="block w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="name" name="name" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">Email</label>
+<input autocomplete="email" class="block w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="email" name="email" placeholder="Your Email" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="message">Message</label>
+<textarea class="block w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all" type="submit">
+                                Send Message
+                            </button>
+</div>
+</form>
+<div class="mt-8 flex justify-center space-x-6">
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors" href="#">
+<span class="sr-only">GitHub</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors" href="#">
+<span class="sr-only">LinkedIn</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full py-6">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-text-secondary-light dark:text-text-secondary-dark">
+<p>© 2024 John Doe. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</body></html>
